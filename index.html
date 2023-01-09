@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DrivenEats</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="topo">
+        <p class="titulo">DrivenEats</p>
+        <p class="comida">Sua comida em 6 minutos</p>
+    </div>
+    <div class="container">
+    <div class="prato">
+        <p class="primeiro">Primeiro, seu prato</p>
+    </div>
+
+    <div class="pratos salgados">
+    <div class="comidas" onclick="selecionarprato(this)">
+        <img class="comida-imagem" src="Imagens/torta.jpg" alt="torta-foto" />
+        <p class="nome-prato">Tarte au Gruyère</p>
+        <p class="descricao">une tarte délicieuse</p>
+        <p class="complemento">avec salade maison</p>
+        <p class="preco">R$68,90</p>
+        <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+    </div>
+    <div class="comidas" onclick="selecionarprato(this)">
+        <img class="comida-imagem" src="Imagens/ravioli2.png" alt="ravioli-foto" />
+        <p class="nome-prato">Ravioli Michelin</p>
+        <p class="descricao">Ún piatto speciale</p>
+        <p class="complemento">fatto per te</p>
+        <p class="preco">R$108,80</p>
+        <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+    </div>
+    <div class="comidas" onclick="selecionarprato(this)">
+        <img class="comida-imagem" src="Imagens/filetmignon2.png" alt="filet-foto" />
+        <p class="nome-prato">Filet Mignon</p>
+        <p class="descricao">une spécialité</p>
+        <p class="complemento">pour se sentir à Paris</p>
+        <p class="preco">R$250,90</p>
+        <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+    </div>
+    <div class="comidas" onclick="selecionarprato(this)">
+        <img class="comida-imagem" src="Imagens/caprese.jpg" alt="caprese-foto" />
+        <p class="nome-prato">L'insalata Caprese</p>
+        <p class="descricao">una rivistazione</p>
+        <p class="complemento">della ricetta classica</p>
+        <p class="preco">R$98,80</p>
+        <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+    </div>
+    <div class="comidas" onclick="selecionarprato(this)">
+        <img class="comida-imagem" src="Imagens/lasanha2.png" alt="lasanha-foto" />
+        <p class="nome-prato">Lasagna Cotronei</p>
+        <p class="descricao">un grande classico</p>
+        <p class="complemento">della cucina italiana</p>
+        <p class="preco">R$146,70</p>
+        <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+    </div>
+    <div class="comidas" onclick="selecionarprato(this)">
+        <img class="comida-imagem" src="Imagens/hamburguer.jpg" alt="hamburguer-foto" />
+        <p class="nome-prato">NYC Burguer</p>
+        <p class="descricao">a classic American</p>
+        <p class="complemento">made for you</p>
+        <p class="preco">R$180,50</p>
+        <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+    </div>
+    <div class="comidas" onclick="selecionarprato(this)">
+        <img class="comida-imagem" src="Imagens/pizza.jpg" alt="pizza-foto" />
+        <p class="nome-prato">Pizza Siciliana</p>
+        <p class="descricao">Una dichiarazione</p>
+        <p class="complemento">italiana d'amore</p>
+        <p class="preco">R$110,90</p>
+        <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+    </div>
+    </div>
+
+    <div class="bebida">
+        <p class="agora">Agora, sua bebida</p>
+    </div>
+
+    <div class="pratos liquidos">
+        <div class="comidas" onclick="selecionarpratodois(this)">
+            <img class="comida-imagem" src="Imagens/melancia.jpg" alt="melancia-foto" />
+            <p class="nome-prato">Suco de Melancia</p>
+            <p class="descricao">Um delicioso suco</p>
+            <p class="complemento">natural de melancia</p>
+            <p class="preco">R$26,00</p>
+            <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="comidas" onclick="selecionarpratodois(this)">
+            <img class="comida-imagem" src="Imagens/vosss.png" alt="voss-foto" />
+            <p class="nome-prato">Água Mineral</p>
+            <p class="descricao">a Norwegian-based</p>
+            <p class="complemento">bottled water</p>
+            <p class="preco">R$88,90</p>
+            <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="comidas" onclick="selecionarpratodois(this)">
+            <img class="comida-imagem" src="Imagens/sodd.png" alt="soda-foto" />
+            <p class="nome-prato">Soda Italiana</p>
+            <p class="descricao">perfeita para o</p>
+            <p class="complemento">verão brasileiro</p>
+            <p class="preco">R$34,90</p>
+            <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="comidas" onclick="selecionarpratodois(this)">
+            <img class="comida-imagem" src="Imagens/drink2.jpg" alt="coke-foto" />
+            <p class="nome-prato">Surprise Drink</p>
+            <p class="descricao">be ready gor</p>
+            <p class="complemento">a great surprise</p>
+            <p class="preco">R$48,80</p>
+            <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="comidas" onclick="selecionarpratodois(this)">
+            <img class="comida-imagem" src="Imagens/laranja.jpg" alt="laranja-foto" />
+            <p class="nome-prato">Suco de Laranja</p>
+            <p class="descricao">A brazilian favorite</p>
+            <p class="complemento">fresh and tropical</p>
+            <p class="preco">R$26,00</p>
+            <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="comidas" onclick="selecionarpratodois(this)">
+            <img class="comida-imagem" src="Imagens/limonada.jpg" alt="limonada-foto" />
+            <p class="nome-prato">Limonada Suíça</p>
+            <p class="descricao">o melhor dos</p>
+            <p class="complemento">dois mundos</p>
+            <p class="preco">R$32,70</p>
+            <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="comidas" onclick="selecionarpratodois(this)">
+            <img class="comida-imagem" src="Imagens/harrypotter.png" alt="cerveja-foto" />
+            <p class="nome-prato">Butterbeer</p>
+            <p class="descricao">alcoholic and</p>
+            <p class="complemento">non-alcoholic version</p>
+            <p class="preco">R$45,90</p>
+            <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        </div>
+    
+        <div class="sobremesa">
+            <p class="fim">Por fim, sua sobremesa</p>
+        </div>
+
+        <div class="pratos doces">
+            <div class="comidas" onclick="selecionarpratotres(this)">
+                <img class="comida-imagem" src="Imagens/stawberry.jpg" alt="strawberry-foto" />
+                <p class="nome-prato">Strawberry Cake</p>
+                <p class="descricao">condensed milk</p>
+                <p class="complemento">and strawberry</p>
+                <p class="preco">R$66,00</p>
+                <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+            <div class="comidas" onclick="selecionarpratotres(this)">
+                <img class="comida-imagem" src="Imagens/mousse2.png" alt="mousse-foto" />
+                <p class="nome-prato">Chocolate Mousse</p>
+                <p class="descricao">made with the best</p>
+                <p class="complemento">dark chocolate</p>
+                <p class="preco">R$78,90</p>
+                <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+            <div class="comidas" onclick="selecionarpratotres(this)">
+                <img class="comida-imagem" src="Imagens/saladinha.jpg" alt="salada-foto" />
+                <p class="nome-prato">Salada de Frutas</p>
+                <p class="descricao">saudável e fresca</p>
+                <p class="complemento">aliada do verão</p>
+                <p class="preco">R$44,90</p>
+                <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+            <div class="comidas" onclick="selecionarpratotres(this)">
+                <img class="comida-imagem" src="Imagens/milkshake.jpeg" alt="milkshake-foto" />
+                <p class="nome-prato">Milkshake</p>
+                <p class="descricao">made with the</p>
+                <p class="complemento">original nutella</p>
+                <p class="preco">R$68,60</p>
+                <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+            <div class="comidas" onclick="selecionarpratotres(this)">
+                <img class="comida-imagem" src="Imagens/briga.png" alt="brigadeiro-foto" />
+                <p class="nome-prato">Bolo de Brigadeiro</p>
+                <p class="descricao">um clássico com</p>
+                <p class="complemento">puro cacau</p>
+                <p class="preco">R$46,00</p>
+                <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+            <div class="comidas" onclick="selecionarpratotres(this)">
+                <img class="comida-imagem" src="Imagens/churro2.jpg" alt="churro-foto" />
+                <p class="nome-prato">Churro</p>
+                <p class="descricao">una verdadera</p>
+                <p class="complemento">dulce experiencia</p>
+                <p class="preco">R$56,80</p>
+                <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+            <div class="comidas" onclick="selecionarpratotres(this)">
+                <img class="comida-imagem" src="Imagens/petit.jpg" alt="petit-foto" />
+                <p class="nome-prato">Petit Gâteau</p>
+                <p class="descricao">fondant au chocolat</p>
+                <p class="complemento">profiter de la France</p>
+                <p class="preco">R$65,60</p>
+                <div class="check"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+            </div>
+            </div>
+
+            <div class="pedido">
+                <button disabled onclick="enviarPedido()" class="aqui">Selecione os 3 itens <br> para fechar o pedido</button>
+            </div>
+
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
