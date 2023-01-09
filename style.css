@@ -179,3 +179,14 @@ margin-top:10px;
         .comida-imagem{width:144px;}
     }
 
+    @media (min-width:1228px){
+        .check {left:130px;
+            bottom:9px;}
+            }
+    
+    @media (min-width:1340px){
+        .check {left:145px;
+            bottom:9px;}
+                }
+        
+    
