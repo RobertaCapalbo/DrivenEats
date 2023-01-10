@@ -56,7 +56,7 @@ let texto = `Olá, gostaria de fazer o pedido: \n\n`
 + `%0a- Prato: ${nomePrato} \n`
 + `%0a- Bebida: ${nomeBebida} \n`
 + `%0a- Sobremesa: ${nomeSobremesa} \n`
-+ `%0a Total R$ ${soma} \n`
++ `%0a Total: R$ ${soma} \n`
 + `%0a -----------------\n`
 + `%0a Informações: \n\n`
 + `%0a- Nome: ${nome} \n`
