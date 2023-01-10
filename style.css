@@ -40,8 +40,7 @@ overflow-x: hidden;}
     color: #333333}
 
     .pratos{display:flex;
-        overflow-x: scroll}
-    
+        overflow-x: scroll}   
 
 .comidas{width: 172px;
     height: 216px;

@@ -51,7 +51,7 @@ let precoSobremesa = document.querySelector('.doces .selecionado .preco').innerH
 precoPrato = precoPrato.replace("R$", "").replace(",", ".")
 precoBebida = precoBebida.replace("R$", "").replace(",", ".")
 precoSobremesa = precoSobremesa.replace("R$", "").replace(",", ".")
-const soma = (Number(precoPrato) + Number(precoBebida) + Number(precoSobremesa)).toFixed(2)
+const soma = (Number(precoPrato) + Number(precoBebida) + Number(precoSobremesa)).toFixed(2).replace(".",",")
 let texto = `Olá, gostaria de fazer o pedido: \n\n`
 + `%0a- Prato: ${nomePrato} \n`
 + `%0a- Bebida: ${nomeBebida} \n`
